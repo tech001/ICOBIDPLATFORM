@@ -1229,19 +1229,7 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"93.188.165.231", "93.188.165.231"},
-    {"82.34.172.175", "82.34.172.175"},
-    {"47.184.156.17", "47.184.156.17"},
-    {"77.172.214.202", "77.172.214.202"},
-    {"91.204.130.145", "91.204.130.145"},
-    {"83.85.89.86", "83.85.89.86"},
-    {"node.icobidplatform.net", "node.icobidplatform.net"},
-    {"icobidplatform.net", "icobidplatform.net"},
-    {"35.163.227.75", "35.163.227.75"},
-    {"35.163.193.118", "35.163.193.118"},
-    {"54.202.166.170", "54.202.166.170"},
-    {"37.211.6.240", "37.211.6.240"},
-    {"46.188.4.74", "46.188.4.74"},    
+    {"127.0.0.1", "127.0.0.1"},    
 };
 
 void ThreadDNSAddressSeed(void* parg)
